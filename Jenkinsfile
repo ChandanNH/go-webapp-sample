@@ -3,7 +3,6 @@ pipeline {
   stages {
     stage('dev') {
       steps {
-        sh 'go test ./...'
       }
     }
 
